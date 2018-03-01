@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE demografia SYSTEM "p_t3_demografia.dtd">
+<demografia>
+    <pais>
+        <nombre>España</nombre>
+        <poblacion>46.000.000</poblacion>
+        <superficie>504.645</superficie>
+        <ciudades_principales>
+            <ciudad>
+                <nombre>Madrid</nombre>
+                <poblacion>6.543.031</poblacion>
+                <capital />
+            </ciudad>
+            <ciudad>
+                <nombre>Barcelona</nombre>
+                <poblacion>5.029.181</poblacion>
+            </ciudad>
+        </ciudades_principales>
+        <lenguas_oficiales>
+            <lengua>castellano</lengua>
+            <lengua>catalan</lengua>
+            <lengua>euskera</lengua>
+            <lengua>gallego</lengua>
+        </lenguas_oficiales>
+    </pais>
+    <pais>
+    <nombre>Francia</nombre>
+    <poblacion>66.300.000</poblacion>
+    <superficie>675.417</superficie>
+    <ciudades_principales>
+        <ciudad>
+            <nombre>Paris</nombre>
+            <poblacion>12.292.895</poblacion>
+            <capital />
+        </ciudad>
+        <ciudad>
+            <nombre>Lyon</nombre>
+            <poblacion>2.288.759</poblacion>
+        </ciudad>
+    </ciudades_principales>
+    <lenguas_oficiales>
+        <lengua>frances</lengua>
+    </lenguas_oficiales>
+    </pais>
+</demografia>

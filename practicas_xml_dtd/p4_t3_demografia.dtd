@@ -1,0 +1,11 @@
+<!ELEMENT demografia (pais+)>
+    <!ELEMENT pais (nombre, poblacion, superficie, ciudades_principales, lenguas_oficiales)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT poblacion (#PCDATA)>
+        <!ELEMENT superficie (#PCDATA)>
+        <!ELEMENT ciudades_principales (ciudad+)>
+            <!ELEMENT ciudad (nombre, poblacion,capital?)>
+                <!ELEMENT capital EMPTY>
+        <!ELEMENT lenguas_oficiales (lengua+)>
+            <!ELEMENT lengua (#PCDATA)>
+

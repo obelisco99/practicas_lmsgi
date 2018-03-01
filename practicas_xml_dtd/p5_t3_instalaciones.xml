@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro_instalacion SYSTEM "p5_t3_instalacion.dtd">
+<libro_instalacion numero="12">
+    <personal>
+        <instalador id="i1" cargo="Encargado">Antonio Pérez</instalador>
+        <instalador id="i2" cargo="Encargado">Ana Llorente</instalador>
+        <instalador id="i3" cargo="Operador">Evaristo Arcángel</instalador>
+        <instalador id="i4" cargo="Operador">Josune Pérez</instalador>
+        <instalador id="i5" cargo="Asistente">Carmelo Palacios</instalador>
+    </personal>
+    <instalacion id="n1" fecha="12/3/2011">
+        <instaladores refs="i1 i3 i5" />
+        <comentarios>
+        Arreglo de una <ref url="http://www.asus.es">placa base</ref> con quemaduras y sustitucion de un <ref url="http://www.coldbreeze.com/product/1">ventilador</ref>
+        </comentarios>
+        <componentes>
+            <comp precio="240">Placa Base Asus GT 545</comp>
+            <comp precio="90">Ventilador ColdBreeze 1</comp>
+        </componentes>
+        <comentarios>
+        La placa anterior se retiró al no ser posible su reparación.
+        </comentarios>
+        </instalacion>
+        <instalacion id="n2">
+            <comentarios>
+            Sólo hicieron falta dos instaladores
+            </comentarios>
+            <instaladores refs="i2 i3" />
+            <comentarios>
+            Actualización del Sistema Operativo Windows 7 64 bits Ultimate
+            </comentarios>
+        </instalacion>
+        <instalacion id="n3" fecha="13/3/2011">
+            <instaladores refs="i1 i4 i5" />
+            <comentarios>
+            Puesta en marcha de un <ref url="http://www.cisco.es/pro-ducts/sf300">Switch Cisco SF300</ref>y comprobación de su funcionamiento
+            </comentarios>
+            <componentes>
+                <comp precio="190">Switch Cisco SF300</comp>
+            </componentes>
+    </instalacion>
+</libro_instalacion>

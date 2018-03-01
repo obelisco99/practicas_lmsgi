@@ -1,0 +1,178 @@
+ ul#ybmenud {
+ text-align: left;
+ display: inline;
+ margin: 0;
+ padding: 15px 4px 17px 0; 		/* espacio de padding de los botones del menú */
+ list-style: none;
+ position:absolute;
+bottom:50px;
+ border:none;
+ left:400px;
+ top:50px;
+}
+ ul#ybmenud li {
+ font-size: 12px/18px;			 /* tamaño de fuente de tu menu */
+ font-family: impact; 		/* fuente de tu menu */
+ display: inline-block;
+ margin-right: -4px;
+ position: relative;
+ padding: 15px 20px;
+ background: yellow; 			/* color de fondo de tu menu */
+ float:none;
+ cursor: pointer;
+ -webkit-transition: all 0.2s;
+ -moz-transition: all 0.2s;
+ -ms-transition: all 0.2s;
+ -o-transition: all 0.2s;
+ transition: all 0.2s;
+}
+ ul#ybmenud li a {
+padding:0;
+font-family: arial black; 		/* letra para los links del menu */
+border:0;
+}
+ ul#ybmenud li:hover {
+ background: #99B3F8;	 /* color de fondo para cuando pasas el ratón por encima del botón de la barra */
+ color: #fff; 			/* color de la letra cuando pasar con el ratón por encima */ 
+}
+ ul#ybmenud li:hover a {
+ background: transparent;
+ color: #fff; 			/* color de la letra cuando pasas con el ratón por encima */ 
+}
+ ul#ybmenud li ul {
+ z-index:1000; 
+ border:none;
+ padding: 0;
+ position: absolute;
+ top: 45px;
+ left: 30px;
+ float:none;
+ width: 150px;
+ -webkit-box-shadow: none;
+ -moz-box-shadow: none;
+ box-shadow: none;
+ display: none;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transiton: opacity 0.2s;
+ -moz-transition: opacity 0.2s;
+ -ms-transition: opacity 0.2s;
+ -o-transition: opacity 0.2s;
+ -transition: opacity 0.2s;
+}
+ ul#ybmenud li ul li { 
+ background: purple;		 /* color del fondo de las pestañas del sub-menu */
+ display: block; 
+ color: #fff; 				/* color de la letra de los sub-menus */
+ text-shadow: 0 -1px 0 #000;
+}
+ul#ybmenud li ul li a{
+ color:blue 				/* color de los links de los submenus */
+}
+ ul#ybmenud li ul li:hover { 
+ background: purple; 		/* color de fondo cuando pasas el ratón sobre el sub menu */
+}
+ ul#ybmenud li:hover ul {
+ display: block;
+ opacity: 1;
+ visibility: visible;
+}
+
+body{
+background-image: url("fotos1/fondo.jpg");
+    background-color: #cccccc;
+}     
+}
+div{
+position:relative;
+top:50px;
+left:25%;
+width:300px;
+border:10px solid blue;
+box-shadow:0px 10px 15px rgba(0,0,0,0.2);
+background:rgba(0,0,0,0.2);
+}
+section{
+position:relative;             
+top:100px;                      
+margin:auto;  
+width:400px;
+border:2px solid yellow;
+border-radius:25px;
+box-shadow:0px 10px 15px rgba(0,0,0,0.2);
+background:RGB(121,121,121);
+left:45px;
+}
+h1{
+color:orange;
+text-align:center;
+font-family:impact;
+font-weight:bold;
+text-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+margin:0px;
+padding:0px;
+height:60px;
+}
+h2{
+color:orange;
+text-align:center;
+font-family:impact;
+font-weight:bold;
+text-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+margin:0px;
+padding:0px;
+height:40px;
+}
+h3{
+color:black;
+text-align:center;
+font-family:Times New Roman, serif;
+font-weight:bold;
+font-size: xx-large;
+margin:0px;
+padding:0px;
+height:60px;
+}
+p{
+font-family:arial black;
+color:gold;
+text-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+text-align:justify;
+font-size:10px;
+}
+img{
+width:400px;
+top:0px;
+}
+video{
+width:400px;
+left:100px;
+}
+audio{
+}
+article{
+height:40px;
+overflow:hidden;
+transition:height 2s;
+}
+article:focus{
+height:300px;
+outline:none;
+}
+article #texto{
+height:40px;
+overflow:hidden;
+}
+article #biografia:focus{
+height:310px;
+outline:none;
+}
+}
+#foto:focus{
+height:200px;
+outline:none;
+}
+#Música:focus{
+height:80px;
+outline:none;
+}

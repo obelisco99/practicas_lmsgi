@@ -1,0 +1,19 @@
+h1{
+	background-color: #34495e;
+}
+
+th>h1{
+	background-color: #f1c40f;
+}
+
+th[rowspan]{
+	background-color: #34495e;
+}
+
+tr:nth-child(even){
+	background-color: #bdc3c7;
+}
+
+th:only-child{
+	background-color: #34495e;
+}
