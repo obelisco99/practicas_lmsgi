@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("img/2859.jpg");
+
+}
+
+h1, h2{
+    font-family: 'Titan One', cursive;
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+    background-color: white;
+    color: black;
+    padding-bottom: 0;
+    font-size: 3em;
+}
+
+small{
+    font-family: sans-serif;
+    color: slategray;
+    font-size: 0.5em;
+    font-weight: normal;
+}
+
+h2{
+    background-color: rgba(0,0,0,.8);
+    color: white;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    font-size: 2em;
+}
+
+
+
+p{
+    margin:auto;
+    max-width: 700px;
+    padding: 1em;
+    background-color:rgba(255,255,255,.8);
+}
+
+img{
+    max-width:100%;
+}
+
+pre{
+    background-color: slategray;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    padding-top: 0em;
+    margin:auto;
+    max-width: 700px;
+}
+
+code{
+    background-color: slategray;
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+code strong{
+    color: yellow;
+}
+
+samp{
+    background-color: #404040;
+    color: white;
+}
+
+strong{
+    color: #2d77ff;
+}
+
+kbd{
+    background-color:gray;
+    background-image:url(img/key.png);
+    background-position: center;
+    background-size:120% 120%;
+    color:gray;
+    font-family: "Ubuntu mono",monospace;
+    font-weight: 700;
+    padding:1em;
+    border:2px solid white;
+}
+
+blockquote{
+    background-color: #d9d4bb;
+    font-style: italic;
+    padding: 1em 50% 1em 5em ;
+    margin: 0;
+}
+
+nav{
+    background-color: white;
+    color: #447577 ;
+    font-weight: bold;
+}
+
+a{
+    background-color: white;
+    color: #447577 ;
+    font-weight: bold;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #447577 ;
+}
+
+address{
+    color: white;
+    background-color: #683d52;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
