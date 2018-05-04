@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps');
+
+*{
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+
+#iglesia{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("img/portada.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    z-index: 3;
+}
+
+#blanco{
+    background-color: #e4e4e4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#blanco:hover{
+    opacity: 0;
+    transition: 4s;
+}
+
+section {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#cielos{
+    top:100%;
+}
+#campos{
+    top:200%;
+}
+
+h2{
+    font-size: 50px;
+    color: white;
+    margin: 0;
+}
+
+#titulocielos{
+    position: absolute;
+    text-align: center;
+    top:0;
+    height: 60px;
+    width: 100%;
+    background-color: #9897a3;
+    z-index: 3;
+}
+
+#negro{
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+p{
+    color: white;
+    text-align: right;
+    font-size: 2em;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    right: 0;
+    margin-right: 1.5em;
+    z-index: 2;
+}
+
+#negro:hover{
+    opacity: 0;
+    transition: 4s;
+}
+
+#fondos{
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+}
+
+.foto{
+    height: 25%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: inline-block;
+
+}
+
+@media screen and (orientation: landscape){
+    .foto{
+        width: 49%;
+        height: 49%;
+    }
+}
+
+#cielos1{
+    background-image: url("img/cielo1.jpg");
+}
+
+#cielos2{
+    background-image: url("img/cielo2.jpg");
+}
+
+#cielos3{
+    background-image: url("img/cielo3.jpg");
+}
+
+#cielos4{
+    background-image: url("img/cielo4.jpg");
+}
+
+#colinas1{
+    background-image: url("img/colinas1.jpg");
+}
+
+#colinas2{
+    background-image: url("img/colinas2.jpg");
+}
+
+#colinas3{
+    background-image: url("img/colinas3.jpg");
+}
+
+#colinas4{
+    background-image: url("img/colinas4.jpg");
+}
+
+#titulocampos{
+    position: absolute;
+    text-align: center;
+    top:0;
+    height: 60px;
+    width: 100%;
+    background-color: #9897a3;
+    z-index: 3;
+}
+
+#negro2{
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#negro2:hover{
+    opacity: 0;
+    transition: 4s;
+}
+
+#fondos2{
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+}
+
+#formulario{
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    bottom: 0;
+    background-color:#f97c6a;
+    width:48px;
+    height:48px;
+
+}
+
+#formulario:hover{
+    width:50%;
+    height:50%;
+    transition:2s;
+    text-align: center;
+}
+
+img{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #f97c6a;
+}
+#formulario:hover img{
+    display:none;
+}
